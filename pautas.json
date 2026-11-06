@@ -1,0 +1,1728 @@
+{
+  "configuracao": {
+    "tempo_pesquisa_minutos": 10,
+    "tempo_fala_minutos": 1
+  },
+  "temas": [
+    {
+      "id": 1,
+      "nome": "Videogames e cultura gamer",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "A evolução dos videogames"
+        },
+        {
+          "id": 2,
+          "titulo": "Por que jogos competitivos são tão populares?"
+        },
+        {
+          "id": 3,
+          "titulo": "A história dos jogos de RPG"
+        },
+        {
+          "id": 4,
+          "titulo": "Como os videogames influenciam a criatividade?"
+        },
+        {
+          "id": 5,
+          "titulo": "O impacto dos jogos na memória"
+        },
+        {
+          "id": 6,
+          "titulo": "Por que Minecraft continua popular?"
+        },
+        {
+          "id": 7,
+          "titulo": "A origem dos jogos de terror"
+        },
+        {
+          "id": 8,
+          "titulo": "A presença feminina no mundo gamer"
+        },
+        {
+          "id": 9,
+          "titulo": "Como funcionam os campeonatos de eSports?"
+        },
+        {
+          "id": 10,
+          "titulo": "Videogames podem ensinar habilidades reais?"
+        },
+        {
+          "id": 11,
+          "titulo": "A história da Nintendo"
+        },
+        {
+          "id": 12,
+          "titulo": "Por que gostamos de jogos difíceis?"
+        },
+        {
+          "id": 13,
+          "titulo": "O efeito da nostalgia nos videogames"
+        },
+        {
+          "id": 14,
+          "titulo": "Como são criados personagens de jogos?"
+        },
+        {
+          "id": 15,
+          "titulo": "Jogos independentes versus grandes estúdios"
+        },
+        {
+          "id": 16,
+          "titulo": "A evolução dos jogos de mundo aberto"
+        },
+        {
+          "id": 17,
+          "titulo": "O impacto das microtransações"
+        },
+        {
+          "id": 18,
+          "titulo": "Por que gostamos de personalizar personagens?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como jogos contam histórias emocionantes?"
+        },
+        {
+          "id": 20,
+          "titulo": "O futuro dos videogames"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Empreendedorismo e negócios",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como nasce uma empresa?"
+        },
+        {
+          "id": 2,
+          "titulo": "Por que algumas startups fracassam?"
+        },
+        {
+          "id": 3,
+          "titulo": "O que é um modelo de negócios?"
+        },
+        {
+          "id": 4,
+          "titulo": "Como identificar oportunidades de mercado?"
+        },
+        {
+          "id": 5,
+          "titulo": "Como pequenos negócios conquistam clientes?"
+        },
+        {
+          "id": 6,
+          "titulo": "O que é receita recorrente?"
+        },
+        {
+          "id": 7,
+          "titulo": "Como validar uma ideia gastando pouco?"
+        },
+        {
+          "id": 8,
+          "titulo": "A diferença entre lucro e faturamento"
+        },
+        {
+          "id": 9,
+          "titulo": "Por que marcas fortes vendem mais?"
+        },
+        {
+          "id": 10,
+          "titulo": "O que é um MVP?"
+        },
+        {
+          "id": 11,
+          "titulo": "Como negócios digitais ganham dinheiro?"
+        },
+        {
+          "id": 12,
+          "titulo": "A importância de conhecer o cliente"
+        },
+        {
+          "id": 13,
+          "titulo": "Por que empresas famosas faliram?"
+        },
+        {
+          "id": 14,
+          "titulo": "Como funciona um marketplace?"
+        },
+        {
+          "id": 15,
+          "titulo": "O papel da inovação nos negócios"
+        },
+        {
+          "id": 16,
+          "titulo": "Como calcular o preço de um produto?"
+        },
+        {
+          "id": 17,
+          "titulo": "Por que atendimento é vantagem competitiva?"
+        },
+        {
+          "id": 18,
+          "titulo": "A diferença entre empreendedor e investidor"
+        },
+        {
+          "id": 19,
+          "titulo": "Como crescer sem perder qualidade?"
+        },
+        {
+          "id": 20,
+          "titulo": "O que torna uma ideia de negócio promissora?"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Psicologia e comportamento humano",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Por que procrastinamos?"
+        },
+        {
+          "id": 2,
+          "titulo": "Como se formam os hábitos?"
+        },
+        {
+          "id": 3,
+          "titulo": "O que é viés de confirmação?"
+        },
+        {
+          "id": 4,
+          "titulo": "Por que buscamos aprovação?"
+        },
+        {
+          "id": 5,
+          "titulo": "Como funciona a primeira impressão?"
+        },
+        {
+          "id": 6,
+          "titulo": "Por que sentimos inveja?"
+        },
+        {
+          "id": 7,
+          "titulo": "O efeito das cores nas emoções"
+        },
+        {
+          "id": 8,
+          "titulo": "Como as pessoas tomam decisões?"
+        },
+        {
+          "id": 9,
+          "titulo": "Por que temos medo de errar?"
+        },
+        {
+          "id": 10,
+          "titulo": "O que é inteligência emocional?"
+        },
+        {
+          "id": 11,
+          "titulo": "Por que nos comparamos com os outros?"
+        },
+        {
+          "id": 12,
+          "titulo": "Como funciona a memória humana?"
+        },
+        {
+          "id": 13,
+          "titulo": "O efeito da música no humor"
+        },
+        {
+          "id": 14,
+          "titulo": "Por que gostamos de fofocas?"
+        },
+        {
+          "id": 15,
+          "titulo": "Como reconhecer manipulação emocional?"
+        },
+        {
+          "id": 16,
+          "titulo": "O que faz alguém parecer confiante?"
+        },
+        {
+          "id": 17,
+          "titulo": "Por que algumas pessoas gostam de ficar sozinhas?"
+        },
+        {
+          "id": 18,
+          "titulo": "O poder da curiosidade"
+        },
+        {
+          "id": 19,
+          "titulo": "Como a personalidade muda com a idade?"
+        },
+        {
+          "id": 20,
+          "titulo": "Por que temos dificuldade de mudar de opinião?"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Livros, literatura e histórias",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Por que histórias de fantasia fazem sucesso?"
+        },
+        {
+          "id": 2,
+          "titulo": "A origem dos contos de fadas"
+        },
+        {
+          "id": 3,
+          "titulo": "Como surgiu a literatura distópica?"
+        },
+        {
+          "id": 4,
+          "titulo": "Por que gostamos de personagens moralmente ambíguos?"
+        },
+        {
+          "id": 5,
+          "titulo": "O impacto dos livros na imaginação"
+        },
+        {
+          "id": 6,
+          "titulo": "Como nascem os best-sellers?"
+        },
+        {
+          "id": 7,
+          "titulo": "A importância das bibliotecas"
+        },
+        {
+          "id": 8,
+          "titulo": "Por que romances adolescentes fazem sucesso?"
+        },
+        {
+          "id": 9,
+          "titulo": "A diferença entre fantasia e ficção científica"
+        },
+        {
+          "id": 10,
+          "titulo": "Como autores criam mundos fictícios?"
+        },
+        {
+          "id": 11,
+          "titulo": "O que caracteriza um anti-herói?"
+        },
+        {
+          "id": 12,
+          "titulo": "Por que livros são adaptados para filmes?"
+        },
+        {
+          "id": 13,
+          "titulo": "A história dos livros proibidos"
+        },
+        {
+          "id": 14,
+          "titulo": "Como a leitura influencia o vocabulário?"
+        },
+        {
+          "id": 15,
+          "titulo": "A importância das personagens femininas"
+        },
+        {
+          "id": 16,
+          "titulo": "O que torna um vilão interessante?"
+        },
+        {
+          "id": 17,
+          "titulo": "A história dos livros digitais"
+        },
+        {
+          "id": 18,
+          "titulo": "Por que gostamos de finais surpreendentes?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como surgiram os clubes de leitura?"
+        },
+        {
+          "id": 20,
+          "titulo": "O futuro da literatura na era da IA"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Tecnologia e inteligência artificial",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como funciona a inteligência artificial generativa?"
+        },
+        {
+          "id": 2,
+          "titulo": "A história da internet"
+        },
+        {
+          "id": 3,
+          "titulo": "O que são algoritmos?"
+        },
+        {
+          "id": 4,
+          "titulo": "Como funcionam os chatbots?"
+        },
+        {
+          "id": 5,
+          "titulo": "A evolução dos computadores pessoais"
+        },
+        {
+          "id": 6,
+          "titulo": "O que é programação?"
+        },
+        {
+          "id": 7,
+          "titulo": "Como funcionam as recomendações do TikTok?"
+        },
+        {
+          "id": 8,
+          "titulo": "O impacto da IA no trabalho"
+        },
+        {
+          "id": 9,
+          "titulo": "O que é computação em nuvem?"
+        },
+        {
+          "id": 10,
+          "titulo": "Como são criados aplicativos?"
+        },
+        {
+          "id": 11,
+          "titulo": "O que é código aberto?"
+        },
+        {
+          "id": 12,
+          "titulo": "Como funciona o reconhecimento facial?"
+        },
+        {
+          "id": 13,
+          "titulo": "A história dos smartphones"
+        },
+        {
+          "id": 14,
+          "titulo": "O que é segurança digital?"
+        },
+        {
+          "id": 15,
+          "titulo": "Como funcionam os ataques de phishing?"
+        },
+        {
+          "id": 16,
+          "titulo": "A diferença entre realidade virtual e aumentada"
+        },
+        {
+          "id": 17,
+          "titulo": "A IA pode criar arte original?"
+        },
+        {
+          "id": 18,
+          "titulo": "Como funcionam os mecanismos de busca?"
+        },
+        {
+          "id": 19,
+          "titulo": "O que são robôs autônomos?"
+        },
+        {
+          "id": 20,
+          "titulo": "Quais são os limites da inteligência artificial?"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Comunicação e oratória",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como controlar o nervosismo ao falar?"
+        },
+        {
+          "id": 2,
+          "titulo": "O que torna uma pessoa persuasiva?"
+        },
+        {
+          "id": 3,
+          "titulo": "A importância da linguagem corporal"
+        },
+        {
+          "id": 4,
+          "titulo": "Como contar histórias interessantes?"
+        },
+        {
+          "id": 5,
+          "titulo": "Por que a escuta ativa é importante?"
+        },
+        {
+          "id": 6,
+          "titulo": "Como apresentar ideias com clareza?"
+        },
+        {
+          "id": 7,
+          "titulo": "O que faz um discurso ser memorável?"
+        },
+        {
+          "id": 8,
+          "titulo": "Como lidar com críticas?"
+        },
+        {
+          "id": 9,
+          "titulo": "A diferença entre falar e comunicar"
+        },
+        {
+          "id": 10,
+          "titulo": "Como argumentar sem brigar?"
+        },
+        {
+          "id": 11,
+          "titulo": "O poder das perguntas abertas"
+        },
+        {
+          "id": 12,
+          "titulo": "Como melhorar a dicção?"
+        },
+        {
+          "id": 13,
+          "titulo": "Por que o tom de voz importa?"
+        },
+        {
+          "id": 14,
+          "titulo": "Como dar feedback construtivo?"
+        },
+        {
+          "id": 15,
+          "titulo": "O que são falácias argumentativas?"
+        },
+        {
+          "id": 16,
+          "titulo": "Como falar de improviso?"
+        },
+        {
+          "id": 17,
+          "titulo": "A importância do silêncio numa conversa"
+        },
+        {
+          "id": 18,
+          "titulo": "Como negociar de forma respeitosa?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como transmitir confiança no trabalho?"
+        },
+        {
+          "id": 20,
+          "titulo": "Por que algumas apresentações prendem nossa atenção?"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Mistérios, história e curiosidades",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "O desaparecimento da Biblioteca de Alexandria"
+        },
+        {
+          "id": 2,
+          "titulo": "Como foram construídas as pirâmides?"
+        },
+        {
+          "id": 3,
+          "titulo": "O mistério do manuscrito Voynich"
+        },
+        {
+          "id": 4,
+          "titulo": "A história das bruxas de Salem"
+        },
+        {
+          "id": 5,
+          "titulo": "O que aconteceu em Pompeia?"
+        },
+        {
+          "id": 6,
+          "titulo": "Por que o Titanic afundou?"
+        },
+        {
+          "id": 7,
+          "titulo": "O enigma de Stonehenge"
+        },
+        {
+          "id": 8,
+          "titulo": "A origem das lendas urbanas"
+        },
+        {
+          "id": 9,
+          "titulo": "A história da Ilha de Páscoa"
+        },
+        {
+          "id": 10,
+          "titulo": "O que foi a Peste Negra?"
+        },
+        {
+          "id": 11,
+          "titulo": "O mistério da colônia de Roanoke"
+        },
+        {
+          "id": 12,
+          "titulo": "A descoberta da tumba de Tutancâmon"
+        },
+        {
+          "id": 13,
+          "titulo": "Como surgiu a sexta-feira 13?"
+        },
+        {
+          "id": 14,
+          "titulo": "A história dos julgamentos por bruxaria"
+        },
+        {
+          "id": 15,
+          "titulo": "A corrida espacial durante a Guerra Fria"
+        },
+        {
+          "id": 16,
+          "titulo": "Quem foram os vikings?"
+        },
+        {
+          "id": 17,
+          "titulo": "A origem da alquimia"
+        },
+        {
+          "id": 18,
+          "titulo": "O que aconteceu com a civilização maia?"
+        },
+        {
+          "id": 19,
+          "titulo": "A história dos mapas antigos"
+        },
+        {
+          "id": 20,
+          "titulo": "Como se investiga um mistério histórico?"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Marketing e redes sociais",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como funciona o marketing digital?"
+        },
+        {
+          "id": 2,
+          "titulo": "O que faz uma publicação viralizar?"
+        },
+        {
+          "id": 3,
+          "titulo": "A psicologia das promoções"
+        },
+        {
+          "id": 4,
+          "titulo": "Como as marcas usam influenciadores?"
+        },
+        {
+          "id": 5,
+          "titulo": "O que é posicionamento de marca?"
+        },
+        {
+          "id": 6,
+          "titulo": "Como o Instagram influencia as compras?"
+        },
+        {
+          "id": 7,
+          "titulo": "A importância da identidade visual"
+        },
+        {
+          "id": 8,
+          "titulo": "O que torna um anúncio eficiente?"
+        },
+        {
+          "id": 9,
+          "titulo": "Como funciona o marketing de conteúdo?"
+        },
+        {
+          "id": 10,
+          "titulo": "Por que seguimos determinadas marcas?"
+        },
+        {
+          "id": 11,
+          "titulo": "O que é público-alvo?"
+        },
+        {
+          "id": 12,
+          "titulo": "Como uma marca constrói reputação?"
+        },
+        {
+          "id": 13,
+          "titulo": "O papel do humor na publicidade"
+        },
+        {
+          "id": 14,
+          "titulo": "Como funcionam os programas de fidelidade?"
+        },
+        {
+          "id": 15,
+          "titulo": "A influência das avaliações online"
+        },
+        {
+          "id": 16,
+          "titulo": "Por que vídeos curtos fazem sucesso?"
+        },
+        {
+          "id": 17,
+          "titulo": "O que é storytelling no marketing?"
+        },
+        {
+          "id": 18,
+          "titulo": "Como pequenas lojas podem usar redes sociais?"
+        },
+        {
+          "id": 19,
+          "titulo": "Por que algumas propagandas são inesquecíveis?"
+        },
+        {
+          "id": 20,
+          "titulo": "Como medir o sucesso de uma campanha?"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Arte, desenho e criatividade",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Por que as pessoas criam arte?"
+        },
+        {
+          "id": 2,
+          "titulo": "A história da pixel art"
+        },
+        {
+          "id": 3,
+          "titulo": "O que é teoria das cores?"
+        },
+        {
+          "id": 4,
+          "titulo": "Como nasceu o estilo gótico?"
+        },
+        {
+          "id": 5,
+          "titulo": "A importância das sombras no desenho"
+        },
+        {
+          "id": 6,
+          "titulo": "Como a arte expressa emoções?"
+        },
+        {
+          "id": 7,
+          "titulo": "A evolução dos desenhos animados"
+        },
+        {
+          "id": 8,
+          "titulo": "O que caracteriza o surrealismo?"
+        },
+        {
+          "id": 9,
+          "titulo": "Como funciona o design de personagens?"
+        },
+        {
+          "id": 10,
+          "titulo": "A história das tatuagens"
+        },
+        {
+          "id": 11,
+          "titulo": "Por que gostamos de determinadas estéticas?"
+        },
+        {
+          "id": 12,
+          "titulo": "O que é minimalismo no design?"
+        },
+        {
+          "id": 13,
+          "titulo": "Como surgiram as histórias em quadrinhos?"
+        },
+        {
+          "id": 14,
+          "titulo": "A influência da arte japonesa"
+        },
+        {
+          "id": 15,
+          "titulo": "A importância da composição visual"
+        },
+        {
+          "id": 16,
+          "titulo": "Como artistas encontram inspiração?"
+        },
+        {
+          "id": 17,
+          "titulo": "A história da pintura em madeira"
+        },
+        {
+          "id": 18,
+          "titulo": "O que diferencia arte e artesanato?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como o cinema usa cores para contar histórias?"
+        },
+        {
+          "id": 20,
+          "titulo": "A inteligência artificial transforma a arte?"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Música, rock e subculturas",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como surgiu o rock?"
+        },
+        {
+          "id": 2,
+          "titulo": "A história do rock alternativo"
+        },
+        {
+          "id": 3,
+          "titulo": "Por que a música desperta emoções?"
+        },
+        {
+          "id": 4,
+          "titulo": "Como nasceu o movimento punk?"
+        },
+        {
+          "id": 5,
+          "titulo": "A origem do heavy metal"
+        },
+        {
+          "id": 6,
+          "titulo": "O que foi o movimento grunge?"
+        },
+        {
+          "id": 7,
+          "titulo": "A presença feminina na história do rock"
+        },
+        {
+          "id": 8,
+          "titulo": "Por que algumas músicas são nostálgicas?"
+        },
+        {
+          "id": 9,
+          "titulo": "Como funcionam os festivais de música?"
+        },
+        {
+          "id": 10,
+          "titulo": "A evolução dos videoclipes"
+        },
+        {
+          "id": 11,
+          "titulo": "Qual é a origem da estética emo?"
+        },
+        {
+          "id": 12,
+          "titulo": "Como a música influencia a moda?"
+        },
+        {
+          "id": 13,
+          "titulo": "O que caracteriza o rock gótico?"
+        },
+        {
+          "id": 14,
+          "titulo": "A história das bandas independentes"
+        },
+        {
+          "id": 15,
+          "titulo": "Por que gostamos de músicas tristes?"
+        },
+        {
+          "id": 16,
+          "titulo": "O impacto da internet na indústria musical"
+        },
+        {
+          "id": 17,
+          "titulo": "Como os instrumentos mudaram ao longo do tempo?"
+        },
+        {
+          "id": 18,
+          "titulo": "O que torna um refrão marcante?"
+        },
+        {
+          "id": 19,
+          "titulo": "A importância das capas de álbuns"
+        },
+        {
+          "id": 20,
+          "titulo": "Como surgem novos gêneros musicais?"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Gatos e mundo animal",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como os gatos foram domesticados?"
+        },
+        {
+          "id": 2,
+          "titulo": "Por que os gatos ronronam?"
+        },
+        {
+          "id": 3,
+          "titulo": "Como os gatos se comunicam?"
+        },
+        {
+          "id": 4,
+          "titulo": "A origem das diferentes raças de gatos"
+        },
+        {
+          "id": 5,
+          "titulo": "Por que os gatos gostam de caixas?"
+        },
+        {
+          "id": 6,
+          "titulo": "Como funciona a visão noturna dos gatos?"
+        },
+        {
+          "id": 7,
+          "titulo": "O que os gatos fazem enquanto dormimos?"
+        },
+        {
+          "id": 8,
+          "titulo": "A inteligência dos corvos"
+        },
+        {
+          "id": 9,
+          "titulo": "Por que alguns animais vivem em grupos?"
+        },
+        {
+          "id": 10,
+          "titulo": "Como funcionam as colônias de formigas?"
+        },
+        {
+          "id": 11,
+          "titulo": "A importância das abelhas"
+        },
+        {
+          "id": 12,
+          "titulo": "Como os polvos resolvem problemas?"
+        },
+        {
+          "id": 13,
+          "titulo": "O que é camuflagem animal?"
+        },
+        {
+          "id": 14,
+          "titulo": "Por que os morcegos são importantes?"
+        },
+        {
+          "id": 15,
+          "titulo": "Como funciona a ecolocalização?"
+        },
+        {
+          "id": 16,
+          "titulo": "A migração das borboletas"
+        },
+        {
+          "id": 17,
+          "titulo": "Como os animais reconhecem pessoas?"
+        },
+        {
+          "id": 18,
+          "titulo": "O que os animais podem aprender?"
+        },
+        {
+          "id": 19,
+          "titulo": "Por que algumas espécies estão ameaçadas?"
+        },
+        {
+          "id": 20,
+          "titulo": "Como os animais se adaptam às cidades?"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Dinheiro e educação financeira",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "O que é inflação?"
+        },
+        {
+          "id": 2,
+          "titulo": "Como funcionam os juros compostos?"
+        },
+        {
+          "id": 3,
+          "titulo": "A diferença entre poupar e investir"
+        },
+        {
+          "id": 4,
+          "titulo": "Como organizar um orçamento doméstico?"
+        },
+        {
+          "id": 5,
+          "titulo": "O que é reserva de emergência?"
+        },
+        {
+          "id": 6,
+          "titulo": "Por que compramos por impulso?"
+        },
+        {
+          "id": 7,
+          "titulo": "Como funciona o cartão de crédito?"
+        },
+        {
+          "id": 8,
+          "titulo": "O que é renda passiva?"
+        },
+        {
+          "id": 9,
+          "titulo": "Como funcionam os fundos de investimento?"
+        },
+        {
+          "id": 10,
+          "titulo": "Por que os preços aumentam?"
+        },
+        {
+          "id": 11,
+          "titulo": "A diferença entre salário bruto e líquido"
+        },
+        {
+          "id": 12,
+          "titulo": "Como evitar golpes financeiros?"
+        },
+        {
+          "id": 13,
+          "titulo": "O que é custo de oportunidade?"
+        },
+        {
+          "id": 14,
+          "titulo": "Como funciona o financiamento?"
+        },
+        {
+          "id": 15,
+          "titulo": "A importância de comparar preços"
+        },
+        {
+          "id": 16,
+          "titulo": "O que são despesas fixas e variáveis?"
+        },
+        {
+          "id": 17,
+          "titulo": "Como funciona a Bolsa de Valores?"
+        },
+        {
+          "id": 18,
+          "titulo": "O que é planejamento financeiro?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como as empresas administram o caixa?"
+        },
+        {
+          "id": 20,
+          "titulo": "Por que educação financeira importa?"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Trabalho, liderança e carreira",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "O que caracteriza um bom líder?"
+        },
+        {
+          "id": 2,
+          "titulo": "Como lidar com sobrecarga de trabalho?"
+        },
+        {
+          "id": 3,
+          "titulo": "A importância de saber delegar"
+        },
+        {
+          "id": 4,
+          "titulo": "Como resolver conflitos profissionais?"
+        },
+        {
+          "id": 5,
+          "titulo": "O que é inteligência emocional no trabalho?"
+        },
+        {
+          "id": 6,
+          "titulo": "Como estabelecer limites profissionais?"
+        },
+        {
+          "id": 7,
+          "titulo": "A diferença entre liderança e chefia"
+        },
+        {
+          "id": 8,
+          "titulo": "Como reconhecer um ambiente de trabalho saudável?"
+        },
+        {
+          "id": 9,
+          "titulo": "O que é síndrome de burnout?"
+        },
+        {
+          "id": 10,
+          "titulo": "Como melhorar a produtividade?"
+        },
+        {
+          "id": 11,
+          "titulo": "A importância de aprender novas habilidades"
+        },
+        {
+          "id": 12,
+          "titulo": "O que faz um bom atendimento ao cliente?"
+        },
+        {
+          "id": 13,
+          "titulo": "Como negociar um aumento salarial?"
+        },
+        {
+          "id": 14,
+          "titulo": "O que é cultura organizacional?"
+        },
+        {
+          "id": 15,
+          "titulo": "Como lidar com colegas difíceis?"
+        },
+        {
+          "id": 16,
+          "titulo": "A importância do reconhecimento profissional"
+        },
+        {
+          "id": 17,
+          "titulo": "Como dar e receber críticas no trabalho?"
+        },
+        {
+          "id": 18,
+          "titulo": "O impacto da tecnologia nas profissões"
+        },
+        {
+          "id": 19,
+          "titulo": "Como fazer uma transição de carreira?"
+        },
+        {
+          "id": 20,
+          "titulo": "O que é satisfação profissional?"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Cinema, séries e animações",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como nasceu o cinema?"
+        },
+        {
+          "id": 2,
+          "titulo": "A evolução dos filmes de terror"
+        },
+        {
+          "id": 3,
+          "titulo": "Como são feitas animações 2D?"
+        },
+        {
+          "id": 4,
+          "titulo": "O que torna um personagem inesquecível?"
+        },
+        {
+          "id": 5,
+          "titulo": "Por que gostamos de vilões carismáticos?"
+        },
+        {
+          "id": 6,
+          "titulo": "A importância das trilhas sonoras"
+        },
+        {
+          "id": 7,
+          "titulo": "Como funcionam os efeitos especiais?"
+        },
+        {
+          "id": 8,
+          "titulo": "O que são easter eggs?"
+        },
+        {
+          "id": 9,
+          "titulo": "A origem dos filmes de fantasia"
+        },
+        {
+          "id": 10,
+          "titulo": "Como funciona a dublagem?"
+        },
+        {
+          "id": 11,
+          "titulo": "A influência do anime no Ocidente"
+        },
+        {
+          "id": 12,
+          "titulo": "Por que séries criam fãs tão dedicados?"
+        },
+        {
+          "id": 13,
+          "titulo": "A história da animação adulta"
+        },
+        {
+          "id": 14,
+          "titulo": "Como se escreve um roteiro?"
+        },
+        {
+          "id": 15,
+          "titulo": "O que faz uma boa reviravolta?"
+        },
+        {
+          "id": 16,
+          "titulo": "A importância do figurino no cinema"
+        },
+        {
+          "id": 17,
+          "titulo": "Por que gostamos de universos compartilhados?"
+        },
+        {
+          "id": 18,
+          "titulo": "Como a iluminação cria suspense?"
+        },
+        {
+          "id": 19,
+          "titulo": "A evolução dos serviços de streaming"
+        },
+        {
+          "id": 20,
+          "titulo": "O que diferencia uma adaptação do original?"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Moda, estética e identidade",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como a moda expressa personalidade?"
+        },
+        {
+          "id": 2,
+          "titulo": "A história da moda alternativa"
+        },
+        {
+          "id": 3,
+          "titulo": "De onde surgiu a moda gótica?"
+        },
+        {
+          "id": 4,
+          "titulo": "Como as tendências voltam a ser populares?"
+        },
+        {
+          "id": 5,
+          "titulo": "A influência da música nas roupas"
+        },
+        {
+          "id": 6,
+          "titulo": "Como as cores afetam a aparência visual?"
+        },
+        {
+          "id": 7,
+          "titulo": "A história dos tênis Converse"
+        },
+        {
+          "id": 8,
+          "titulo": "O que é moda sustentável?"
+        },
+        {
+          "id": 9,
+          "titulo": "Como surgiram os estilos vintage?"
+        },
+        {
+          "id": 10,
+          "titulo": "A evolução dos vestidos de festa"
+        },
+        {
+          "id": 11,
+          "titulo": "A relação entre moda e autoestima"
+        },
+        {
+          "id": 12,
+          "titulo": "O significado cultural das tatuagens"
+        },
+        {
+          "id": 13,
+          "titulo": "O impacto das redes sociais na moda"
+        },
+        {
+          "id": 14,
+          "titulo": "A história da maquiagem"
+        },
+        {
+          "id": 15,
+          "titulo": "O que é estilo pessoal?"
+        },
+        {
+          "id": 16,
+          "titulo": "Por que o preto é tão popular na moda?"
+        },
+        {
+          "id": 17,
+          "titulo": "A influência da cultura pop nas tendências"
+        },
+        {
+          "id": 18,
+          "titulo": "Como funcionam as coleções de moda?"
+        },
+        {
+          "id": 19,
+          "titulo": "Qual é o impacto do fast fashion?"
+        },
+        {
+          "id": 20,
+          "titulo": "Como combinar tendências com individualidade?"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Ciência e universo",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como surgem as estrelas?"
+        },
+        {
+          "id": 2,
+          "titulo": "O que é um buraco negro?"
+        },
+        {
+          "id": 3,
+          "titulo": "Por que a Lua tem fases?"
+        },
+        {
+          "id": 4,
+          "titulo": "Como funcionam os eclipses?"
+        },
+        {
+          "id": 5,
+          "titulo": "O que é matéria escura?"
+        },
+        {
+          "id": 6,
+          "titulo": "Como os cientistas estudam exoplanetas?"
+        },
+        {
+          "id": 7,
+          "titulo": "A possibilidade de vida fora da Terra"
+        },
+        {
+          "id": 8,
+          "titulo": "Como surgem as auroras polares?"
+        },
+        {
+          "id": 9,
+          "titulo": "Por que o céu é azul?"
+        },
+        {
+          "id": 10,
+          "titulo": "O que são ondas gravitacionais?"
+        },
+        {
+          "id": 11,
+          "titulo": "Como funcionam os foguetes?"
+        },
+        {
+          "id": 12,
+          "titulo": "A origem do Sistema Solar"
+        },
+        {
+          "id": 13,
+          "titulo": "O que causa os terremotos?"
+        },
+        {
+          "id": 14,
+          "titulo": "Como os vulcões se formam?"
+        },
+        {
+          "id": 15,
+          "titulo": "Por que os oceanos têm marés?"
+        },
+        {
+          "id": 16,
+          "titulo": "O que é evolução biológica?"
+        },
+        {
+          "id": 17,
+          "titulo": "Como as vacinas estimulam a imunidade?"
+        },
+        {
+          "id": 18,
+          "titulo": "O que são fósseis?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como funciona o DNA?"
+        },
+        {
+          "id": 20,
+          "titulo": "Quais são os desafios de uma viagem a Marte?"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Sociedade, filosofia e debates",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "O que significa liberdade individual?"
+        },
+        {
+          "id": 2,
+          "titulo": "A diferença entre igualdade e equidade"
+        },
+        {
+          "id": 3,
+          "titulo": "Qual é o papel do Estado na economia?"
+        },
+        {
+          "id": 4,
+          "titulo": "O que é meritocracia?"
+        },
+        {
+          "id": 5,
+          "titulo": "Por que existem leis?"
+        },
+        {
+          "id": 6,
+          "titulo": "Como funciona a democracia?"
+        },
+        {
+          "id": 7,
+          "titulo": "O que é liberdade de expressão?"
+        },
+        {
+          "id": 8,
+          "titulo": "O que caracteriza uma sociedade justa?"
+        },
+        {
+          "id": 9,
+          "titulo": "Por que as pessoas discordam sobre política?"
+        },
+        {
+          "id": 10,
+          "titulo": "A importância do pensamento crítico"
+        },
+        {
+          "id": 11,
+          "titulo": "O que é ética profissional?"
+        },
+        {
+          "id": 12,
+          "titulo": "Como surgiram os direitos trabalhistas?"
+        },
+        {
+          "id": 13,
+          "titulo": "O que são direitos humanos?"
+        },
+        {
+          "id": 14,
+          "titulo": "A diferença entre fato e opinião"
+        },
+        {
+          "id": 15,
+          "titulo": "Por que existem impostos?"
+        },
+        {
+          "id": 16,
+          "titulo": "O que é responsabilidade individual?"
+        },
+        {
+          "id": 17,
+          "titulo": "Como combater a desinformação?"
+        },
+        {
+          "id": 18,
+          "titulo": "A influência das redes sociais na política"
+        },
+        {
+          "id": 19,
+          "titulo": "O que é mobilidade social?"
+        },
+        {
+          "id": 20,
+          "titulo": "Como equilibrar liberdade e segurança?"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Motos, veículos e mobilidade",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como surgiu a motocicleta?"
+        },
+        {
+          "id": 2,
+          "titulo": "A evolução dos motores de combustão"
+        },
+        {
+          "id": 3,
+          "titulo": "Como funcionam as motos elétricas?"
+        },
+        {
+          "id": 4,
+          "titulo": "A importância dos equipamentos de proteção"
+        },
+        {
+          "id": 5,
+          "titulo": "O que é manutenção preventiva?"
+        },
+        {
+          "id": 6,
+          "titulo": "Como funciona uma transmissão de moto?"
+        },
+        {
+          "id": 7,
+          "titulo": "A história das competições de motociclismo"
+        },
+        {
+          "id": 8,
+          "titulo": "A diferença entre tipos de pneus"
+        },
+        {
+          "id": 9,
+          "titulo": "Como funciona o sistema de freios ABS?"
+        },
+        {
+          "id": 10,
+          "titulo": "O que influencia o consumo de combustível?"
+        },
+        {
+          "id": 11,
+          "titulo": "O impacto ambiental dos veículos"
+        },
+        {
+          "id": 12,
+          "titulo": "Como funciona a suspensão de uma moto?"
+        },
+        {
+          "id": 13,
+          "titulo": "A importância do óleo lubrificante"
+        },
+        {
+          "id": 14,
+          "titulo": "A evolução dos painéis digitais"
+        },
+        {
+          "id": 15,
+          "titulo": "O que é direção defensiva?"
+        },
+        {
+          "id": 16,
+          "titulo": "Como funcionam os veículos híbridos?"
+        },
+        {
+          "id": 17,
+          "titulo": "A história das motocicletas Honda"
+        },
+        {
+          "id": 18,
+          "titulo": "Por que existem diferentes categorias de motos?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como a tecnologia melhora a segurança no trânsito?"
+        },
+        {
+          "id": 20,
+          "titulo": "O futuro da mobilidade urbana"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Culturas, países e viagens",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Por que existem tantos idiomas?"
+        },
+        {
+          "id": 2,
+          "titulo": "Como surgiram as tradições de casamento?"
+        },
+        {
+          "id": 3,
+          "titulo": "A história do Halloween"
+        },
+        {
+          "id": 4,
+          "titulo": "O que caracteriza a cultura japonesa?"
+        },
+        {
+          "id": 5,
+          "titulo": "A origem dos festivais populares"
+        },
+        {
+          "id": 6,
+          "titulo": "Como funciona o turismo sustentável?"
+        },
+        {
+          "id": 7,
+          "titulo": "A história dos castelos europeus"
+        },
+        {
+          "id": 8,
+          "titulo": "O que são patrimônios da humanidade?"
+        },
+        {
+          "id": 9,
+          "titulo": "Por que os países têm fusos horários?"
+        },
+        {
+          "id": 10,
+          "titulo": "A diversidade cultural do Brasil"
+        },
+        {
+          "id": 11,
+          "titulo": "Como surgiu o Carnaval?"
+        },
+        {
+          "id": 12,
+          "titulo": "A história da culinária italiana"
+        },
+        {
+          "id": 13,
+          "titulo": "O que é choque cultural?"
+        },
+        {
+          "id": 14,
+          "titulo": "Como surgiram as bandeiras nacionais?"
+        },
+        {
+          "id": 15,
+          "titulo": "Por que existem diferentes calendários?"
+        },
+        {
+          "id": 16,
+          "titulo": "A influência da imigração no Rio Grande do Sul"
+        },
+        {
+          "id": 17,
+          "titulo": "Como surgiram as cidades medievais?"
+        },
+        {
+          "id": 18,
+          "titulo": "O que torna uma cidade turística?"
+        },
+        {
+          "id": 19,
+          "titulo": "Como a geografia influencia a cultura?"
+        },
+        {
+          "id": 20,
+          "titulo": "Como a internet transforma as viagens?"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Autoconhecimento e desenvolvimento pessoal",
+      "topicos": [
+        {
+          "id": 1,
+          "titulo": "Como definir objetivos realistas?"
+        },
+        {
+          "id": 2,
+          "titulo": "Por que a disciplina é importante?"
+        },
+        {
+          "id": 3,
+          "titulo": "Como aprender algo novo com eficiência?"
+        },
+        {
+          "id": 4,
+          "titulo": "A diferença entre motivação e consistência"
+        },
+        {
+          "id": 5,
+          "titulo": "Como construir autoconfiança?"
+        },
+        {
+          "id": 6,
+          "titulo": "O que é mentalidade de crescimento?"
+        },
+        {
+          "id": 7,
+          "titulo": "Como melhorar a capacidade de concentração?"
+        },
+        {
+          "id": 8,
+          "titulo": "Por que descansar melhora o aprendizado?"
+        },
+        {
+          "id": 9,
+          "titulo": "Como organizar prioridades?"
+        },
+        {
+          "id": 10,
+          "titulo": "A importância de reconhecer conquistas"
+        },
+        {
+          "id": 11,
+          "titulo": "Como lidar com expectativas frustradas?"
+        },
+        {
+          "id": 12,
+          "titulo": "O que é autossabotagem?"
+        },
+        {
+          "id": 13,
+          "titulo": "Como praticar pensamento crítico?"
+        },
+        {
+          "id": 14,
+          "titulo": "Por que é difícil começar projetos?"
+        },
+        {
+          "id": 15,
+          "titulo": "Como diminuir o perfeccionismo?"
+        },
+        {
+          "id": 16,
+          "titulo": "A importância de fazer perguntas"
+        },
+        {
+          "id": 17,
+          "titulo": "Como tomar decisões melhores?"
+        },
+        {
+          "id": 18,
+          "titulo": "Como lidar com a opinião dos outros?"
+        },
+        {
+          "id": 19,
+          "titulo": "O que é aprendizado contínuo?"
+        },
+        {
+          "id": 20,
+          "titulo": "Como transformar curiosidade em conhecimento?"
+        }
+      ]
+    }
+  ]
+}

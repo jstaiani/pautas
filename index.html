@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pautas — sorteador de assuntos</title>
+  <meta name="description" content="Sorteie um assunto, pesquise por 10 minutos e fale por 1 minuto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="marca"><span class="logo" aria-hidden="true">P</span>Pautas</div>
+    <nav class="abas" aria-label="Seções">
+      <button class="aba-btn" data-aba="sortear" aria-current="page">Sortear</button>
+      <button class="aba-btn" data-aba="meus">Meus temas <span class="badge" id="n-meus"></span></button>
+      <button class="aba-btn" data-aba="salvos">Salvos <span class="badge" id="n-salvos"></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SORTEAR -->
+    <section class="aba" id="aba-sortear">
+      <p class="lema">Sorteie um assunto, pesquise <b id="lema-p">10 min</b>, depois fale <b id="lema-f">1 min</b>.</p>
+
+      <article class="cartao" id="cartao">
+        <div class="cartao-tema" id="c-tema">Pronto para começar</div>
+        <h1 class="cartao-titulo" id="c-titulo" aria-live="polite">Aperte <em>Girar</em> para sortear um assunto</h1>
+        <div class="cartao-rodape">
+          <span id="c-restantes"></span>
+          <button class="salvar" id="b-salvar" aria-pressed="false" hidden>♡ salvar</button>
+        </div>
+
+        <div class="timer" id="timer" hidden>
+          <div class="timer-fase" id="t-fase">Pesquisando</div>
+          <div class="timer-relogio" id="t-relogio">10:00</div>
+          <div class="barra"><div id="t-barra"></div></div>
+          <div class="timer-acoes" id="t-acoes"></div>
+        </div>
+      </article>
+
+      <div class="acoes" id="acoes">
+        <button class="btn primario" id="b-girar">Girar</button>
+        <button class="btn" id="b-pesquisar" disabled>🔬 Pesquisar · <span id="lbl-p">10 min</span></button>
+        <button class="btn" id="b-falar" disabled>🎙 Falar · <span id="lbl-f">1 min</span></button>
+      </div>
+      <p class="dica">Atalho: a barra de espaço gira.</p>
+    </section>
+
+    <!-- MEUS TEMAS -->
+    <section class="aba" id="aba-meus" hidden>
+      <h2>Meus temas</h2>
+      <p class="sub">Escreva seus próprios assuntos. Eles entram no sorteio junto com os outros. Cole vários de uma vez, um por linha.</p>
+      <form class="form-meus" id="f-meus">
+        <textarea id="i-meu" rows="2" maxlength="2000" placeholder="Ex.: A história do café" required></textarea>
+        <button class="btn primario">Adicionar</button>
+      </form>
+      <ul class="lista" id="l-meus"></ul>
+    </section>
+
+    <!-- SALVOS -->
+    <section class="aba" id="aba-salvos" hidden>
+      <h2>Salvos</h2>
+      <p class="sub">As pautas que você marcou com ♡. Ficam guardadas neste navegador.</p>
+      <ul class="lista" id="l-salvos"></ul>
+    </section>
+  </main>
+
+  <footer class="rodape" id="rodape"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
