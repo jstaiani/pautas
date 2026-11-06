@@ -138,6 +138,30 @@ h2 { font: 700 30px/1.2 var(--serif); margin: 16px 0 4px; }
 .btn.pequeno { padding: 7px 14px; font-size: 14px; }
 .dica { text-align: center; font-size: 12px; color: var(--suave); margin-top: 14px; }
 
+/* tempos */
+.tempos { max-width: 460px; margin: 18px auto 0; text-align: center; }
+.tempos summary {
+  display: inline-block; cursor: pointer; list-style: none;
+  font-size: 14px; color: var(--suave); padding: 6px 12px; border-radius: 999px;
+}
+.tempos summary::-webkit-details-marker { display: none; }
+.tempos summary:hover, .tempos[open] summary { color: var(--texto); background: var(--chip); }
+.tempos form {
+  margin-top: 10px; padding: 16px; text-align: left;
+  background: var(--superficie); border: 1px solid var(--borda); border-radius: 14px;
+  display: grid; gap: 12px;
+}
+.tempos fieldset { border: 0; margin: 0; padding: 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.tempos legend { float: left; width: 110px; font-weight: 500; }
+.tempos label { display: flex; align-items: center; gap: 6px; color: var(--suave); font-size: 14px; }
+.tempos input {
+  width: 72px; padding: 8px 10px; font: inherit; color: var(--texto);
+  background: var(--bg); border: 1px solid var(--borda); border-radius: 10px;
+}
+.tempos-botoes { display: flex; gap: 8px; flex-wrap: wrap; }
+.tempos-msg { margin: 0; font-size: 13px; color: var(--suave); min-height: 1.2em; }
+.tempos-msg.erro { color: var(--destaque); }
+
 /* listas */
 .form-meus { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 20px; }
 .form-meus textarea {

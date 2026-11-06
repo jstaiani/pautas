@@ -1,6 +1,6 @@
 // Pautas — sorteador de assuntos. Dados em pautas.json; o resto fica no localStorage.
 
-const CHAVES = { salvos: "pautas.salvos", meus: "pautas.meus", vistos: "pautas.vistos" };
+const CHAVES = { salvos: "pautas.salvos", meus: "pautas.meus", vistos: "pautas.vistos", tempos: "pautas.tempos" };
 
 function ler(chave, padrao) {
   try { const v = localStorage.getItem(chave); return v ? JSON.parse(v) : padrao; } catch { return padrao; }
@@ -21,6 +21,8 @@ const el = {
 
 const estado = {
   config: { tempo_pesquisa_minutos: 10, tempo_fala_minutos: 1 },
+  padrao: { pesquisa: 600, fala: 60 },  // segundos, vindos do pautas.json
+  tempos: null,                          // segundos em uso (padrão ou o que a pessoa salvou)
   temas: [],
   todos: [],                       // [{chave, titulo, tema}]
   atual: null,
@@ -49,9 +51,13 @@ async function iniciar() {
     return;
   }
 
-  const p = estado.config.tempo_pesquisa_minutos, f = estado.config.tempo_fala_minutos;
-  $("lema-p").textContent = $("lbl-p").textContent = `${p} min`;
-  $("lema-f").textContent = $("lbl-f").textContent = `${f} min`;
+  estado.padrao = {
+    pesquisa: Math.round(estado.config.tempo_pesquisa_minutos * 60),
+    fala: Math.round(estado.config.tempo_fala_minutos * 60),
+  };
+  const salvos = ler(CHAVES.tempos, null);
+  estado.tempos = validos(salvos) ? salvos : { ...estado.padrao };
+  aplicarTempos();
   el.rodape.textContent = `${estado.todos.length} assuntos em ${estado.temas.length} temas · seus salvos e temas ficam neste navegador`;
 
   desenharMeus();
@@ -228,15 +234,71 @@ function vazio(msg) {
   return li;
 }
 
+/* ---------- ajuste de tempos ---------- */
+
+const MIN_SEG = 5, MAX_SEG = 120 * 60;
+
+function validos(t) {
+  return t && [t.pesquisa, t.fala].every((s) => Number.isFinite(s) && s >= MIN_SEG && s <= MAX_SEG);
+}
+
+// 900 -> "15 min", 90 -> "1 min 30 s", 45 -> "45 s"
+function formatarTempo(seg) {
+  const m = Math.floor(seg / 60), s = seg % 60;
+  if (!m) return `${s} s`;
+  return s ? `${m} min ${s} s` : `${m} min`;
+}
+
+function aplicarTempos() {
+  const { pesquisa, fala } = estado.tempos;
+  $("lema-p").textContent = $("lbl-p").textContent = formatarTempo(pesquisa);
+  $("lema-f").textContent = $("lbl-f").textContent = formatarTempo(fala);
+  $("p-min").value = Math.floor(pesquisa / 60); $("p-seg").value = pesquisa % 60;
+  $("f-min").value = Math.floor(fala / 60);     $("f-seg").value = fala % 60;
+}
+
+function lerCampo(id) {
+  const n = Number($(id).value || 0);
+  return Number.isFinite(n) && n >= 0 ? Math.floor(n) : NaN;
+}
+
+function avisarTempos(msg, erro = false) {
+  const p = $("tempos-msg");
+  p.textContent = msg;
+  p.classList.toggle("erro", erro);
+}
+
+$("f-tempos").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const novo = {
+    pesquisa: lerCampo("p-min") * 60 + lerCampo("p-seg"),
+    fala: lerCampo("f-min") * 60 + lerCampo("f-seg"),
+  };
+  if ([lerCampo("p-seg"), lerCampo("f-seg")].some((s) => s > 59)) return avisarTempos("Os segundos vão de 0 a 59.", true);
+  if (!validos(novo)) return avisarTempos("Cada tempo precisa ficar entre 5 segundos e 120 minutos.", true);
+  estado.tempos = novo;
+  gravar(CHAVES.tempos, novo);
+  aplicarTempos();
+  avisarTempos(`Salvo: pesquisa de ${formatarTempo(novo.pesquisa)}, fala de ${formatarTempo(novo.fala)}.`
+    + (timer.rodando ? " Vale a partir do próximo cronômetro." : ""));
+});
+
+$("b-padrao").addEventListener("click", () => {
+  estado.tempos = { ...estado.padrao };
+  try { localStorage.removeItem(CHAVES.tempos); } catch { /* sem storage */ }
+  aplicarTempos();
+  avisarTempos(`Voltou ao padrão: pesquisa de ${formatarTempo(estado.padrao.pesquisa)}, fala de ${formatarTempo(estado.padrao.fala)}.`);
+});
+
 /* ---------- cronômetro ---------- */
 
 const timer = { fase: null, total: 0, fim: 0, restante: 0, pausado: false, rodando: false, id: null };
 const tituloOriginal = document.title;
 
 function iniciarTimer(fase) {
-  const minutos = fase === "pesquisa" ? estado.config.tempo_pesquisa_minutos : estado.config.tempo_fala_minutos;
+  const ms = estado.tempos[fase] * 1000;
   clearInterval(timer.id);
-  Object.assign(timer, { fase, total: minutos * 60000, restante: minutos * 60000, pausado: false, rodando: true });
+  Object.assign(timer, { fase, total: ms, restante: ms, pausado: false, rodando: true });
   timer.fim = Date.now() + timer.total;
   el.timer.hidden = false;
   el.timer.classList.remove("acabou");

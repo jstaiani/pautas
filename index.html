@@ -46,6 +46,27 @@
         <button class="btn" id="b-pesquisar" disabled>🔬 Pesquisar · <span id="lbl-p">10 min</span></button>
         <button class="btn" id="b-falar" disabled>🎙 Falar · <span id="lbl-f">1 min</span></button>
       </div>
+      <details class="tempos" id="tempos">
+        <summary>⚙ Ajustar tempos</summary>
+        <form id="f-tempos" novalidate>
+          <fieldset>
+            <legend>🔬 Pesquisa</legend>
+            <label><input type="number" id="p-min" min="0" max="120" inputmode="numeric"> min</label>
+            <label><input type="number" id="p-seg" min="0" max="59" step="5" inputmode="numeric"> s</label>
+          </fieldset>
+          <fieldset>
+            <legend>🎙 Fala</legend>
+            <label><input type="number" id="f-min" min="0" max="120" inputmode="numeric"> min</label>
+            <label><input type="number" id="f-seg" min="0" max="59" step="5" inputmode="numeric"> s</label>
+          </fieldset>
+          <div class="tempos-botoes">
+            <button class="btn pequeno primario">Salvar tempos</button>
+            <button type="button" class="btn pequeno" id="b-padrao">Voltar ao padrão</button>
+          </div>
+          <p class="tempos-msg" id="tempos-msg" aria-live="polite"></p>
+        </form>
+      </details>
+
       <p class="dica">Atalho: a barra de espaço gira.</p>
     </section>
 
