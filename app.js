@@ -1,6 +1,6 @@
 // Pautas — sorteador de assuntos. Dados em pautas.json; o resto fica no localStorage.
 
-const CHAVES = { salvos: "pautas.salvos", meus: "pautas.meus", vistos: "pautas.vistos", tempos: "pautas.tempos" };
+const CHAVES = { salvos: "pautas.salvos", meus: "pautas.meus", vistos: "pautas.vistos", tempos: "pautas.tempos", atual: "pautas.atual" };
 
 function ler(chave, padrao) {
   try { const v = localStorage.getItem(chave); return v ? JSON.parse(v) : padrao; } catch { return padrao; }
@@ -63,6 +63,10 @@ async function iniciar() {
   desenharMeus();
   desenharSalvos();
   atualizarRestantes();
+
+  // volta com o último assunto sorteado, mesmo depois de fechar o navegador
+  const ultimo = ler(CHAVES.atual, null);
+  if (ultimo && typeof ultimo.titulo === "string" && typeof ultimo.chave === "string") revelar(ultimo);
 }
 
 function meusComoPautas() {
@@ -116,6 +120,7 @@ function sortear() {
 function revelar(pauta) {
   estado.girando = false;
   estado.atual = pauta;
+  gravar(CHAVES.atual, { chave: pauta.chave, titulo: pauta.titulo, tema: pauta.tema });
   estado.vistos.add(pauta.chave);
   gravar(CHAVES.vistos, [...estado.vistos]);
 
